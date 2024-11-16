@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(rgb(120, 191, 219), rgb(165, 194, 216))
+}
+h1{
+    color: darkblue;
+}
+.saba{
+    color:black;
+}
+.luka{
+    color: black;
+}
+#p5{
+    color: black;
+    font-family: "consolas", sans-serif;
+}
+#p6{
+    color: black;
+}
+#p8{
+    color: black;
+}
+#p9{
+    color: black;
+}
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#img1{
+    right: 15px;
+}
+#box1{
+    border: 5px solid;
+    width: 500px;
+    height: 500px;
+    font-size: 15px;
+    background-color: greenyellow;
+}
+#box2{
+    border: 5px solid;
+    width: 1050px;
+    height: 1050px;
+    font-size: 15px;
+    background-color:darkcyan
+}
+#p2{
+    border: 5px solid;
+    width: 330px;
+    height: 330px;
+    font-size: 15px;
+    background-color:lightblue
+}

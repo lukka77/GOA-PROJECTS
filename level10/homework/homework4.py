@@ -1,7 +1,6 @@
 #  მომხმარებელს შემოატანინეთ ასაკი და დაუბეჭდეთ 10 წელში რამდენი წლის იქნება
-
 # 10 წლის შემდეგ
 
-str1=str(10)
-str1=input("Enter your age: ")
-print(str1 + "10")
+age = int(input("Enter your age: "))
+age_in_ten_years = age + 10
+print(age_in_ten_years)
