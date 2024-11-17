@@ -1,8 +1,8 @@
 body{
-    background: linear-gradient(rgb(120, 191, 219), rgb(165, 194, 216))
+    background: linear-gradient(rgb(82, 87, 88), rgb(82, 87, 88))
 }
 h1{
-    color: darkblue;
+    color: rgb(0, 0, 0);
 }
 .saba{
     color:black;
@@ -35,7 +35,7 @@ body{
     width: 500px;
     height: 500px;
     font-size: 15px;
-    background-color: greenyellow;
+    background-color: rgb(255, 255, 255);
 }
 #box2{
     border: 5px solid;
