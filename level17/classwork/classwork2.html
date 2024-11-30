@@ -1,0 +1,38 @@
+<!-- საკლასო დავალება:
+ვებსაიტზე დაამატეთ ვიდეო და კოდის წერისას გამოიყენეთ 2 source თეგი. ვიდეოს ასევე გაუწერეთ controls ატრიბუტი.
+იუთუბზე აირჩიეთ ნებისმიერი ვიდეო და iframe-ს გამოყენებით ჩანერგეთ ის ვებსაიტზე.
+შექმენით ჩამოსაშლელი მენიუ და მასში დაამატეთ 5 ვარიანტი (option). ეს მენიუ დააკავშირეთ label-თან -->
+
+
+<html>
+    <head>
+      <title>Document</title>
+    </head>
+
+    <body>
+     <form>
+
+    <video controls >
+      <source src="video.mp4" type="video/mp4" width="500" height="200">
+      <source src="video2.mkv" type="vidoe/mkv" width="500" height="200">
+    </video>
+
+      <iframe width="853" height="480" src="https://www.youtube.com/embed/zMOE_vAr5u4" title="GOA, გაკვეთილი 64 -- ალგორითმები და ხელოვნური ინტელექტი - ზურაბ კუჭავა" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+      <br><br>
+
+    <label for="select1">Choose car:</label>
+    <select id="input1" name="car-brand">
+        <option value="BMW">BMW</option>
+        <option value="Mercedes-benz">Mercedes-benz</option>
+        <option value="Opel">Opel</option>
+        <option value="Toyota">Toyota</option>
+        <option value="Audi">Audi</option>
+    </select>
+  
+
+    <button type="submit">Submit form</button>
+    </form>
+        
+    </body>
+</html>
