@@ -1,0 +1,18 @@
+h1, p, button {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: darkblue;
+    margin-bottom: 15px;
+  }
+
+  button {
+    background-color: lightyellow;
+    border: 2px solid yellow;
+    padding: 5px 15px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: yellowgreen;
+    color: green;
+  }
