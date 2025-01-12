@@ -1,8 +1,9 @@
 # 6) Factorial: Implement a function to calculate the factorial of a given number.
 
-def factorial(n):
-    if n == 0 or n == 1:
-        return 1
-    else:
-        return n * factorial(n - 1)
-print(factorial(6))
+def factorial(num):
+    result=1
+
+    for i in range(2, num1 + 1): result *=i
+    print(result)
+
+factorial(5)
