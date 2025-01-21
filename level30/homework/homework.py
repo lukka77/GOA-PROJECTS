@@ -75,3 +75,23 @@ def find_python_position(sentence):
 sentence="Python"
 position=find_python_position(sentence)
 print("The position of the first occurrence of 'Python' is:", position)
+
+
+# 25)
+
+def all_ipercase(string):
+    print(string.isupper())
+
+all_ipercase("heLLO")
+all_ipercase("goa")
+all_ipercase("GRAPHICS")
+
+
+# 27)
+
+def replace_speaces(string):
+    print(string.replace())
+
+replace_speaces("fgfdgsf gds")
+replace_speaces("dsgdf gdas")
+replace_speaces("rgv gfed")
