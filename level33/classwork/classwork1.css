@@ -1,0 +1,39 @@
+#p1{
+    text-decoration: dashed underline green;
+    text-align: right;
+}
+#p2{
+    text-align: center;
+    text-decoration: line-through;
+}
+#p3{
+    text-decoration: overline double red;
+}
+#p4{
+    text-align: center;
+    text-decoration: underline;
+}
+#p5{
+    text-align: right;
+    text-decoration: line-through dotted green;
+}
+#p6{
+    text-decoration: line-through;
+}
+#p7{
+    text-decoration: overline;
+}
+#p8{
+    text-align: right;
+    color: green;
+    text-decoration: overline green;
+}
+#p9{
+    text-transform: uppercase;
+    color: gray;
+    text-decoration: overline;
+}
+#p10{
+    text-align: right;
+    text-decoration: underline dashed green;
+}

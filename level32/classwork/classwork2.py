@@ -1,5 +1,4 @@
-# 
-
+# თქვენს ფუნქციაში format ფუნქციის მაგივრად გამოიყენეთ f string
 
 def generate_big_sentence(name, surname, age):
     print(f"Hello, my name is {name}, my surname is {surname}, and I am {age} years old.")
