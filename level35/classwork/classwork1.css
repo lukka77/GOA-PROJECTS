@@ -1,0 +1,11 @@
+.main-a:hover{
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(red, green, blue);
+}
+
+.main-a:active{
+    font-weight: 100;
+    font-size: 12px;
+    color: #777
+}
