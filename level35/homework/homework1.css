@@ -47,3 +47,31 @@ a:visited {
 a:hover {
     color: #C70039;
 }
+
+#a5{
+    color: #FF5733; 
+    text-decoration: none; 
+    padding: 5px;
+}
+
+a:visited {
+    color: #900C3F;
+}
+
+a:hover {
+    color: #C70039;
+    background-color: #F1C40F; 
+}
+
+a{
+    font-weight: bold;
+}
+
+a.some-class{
+    font-weight: bold;
+}
+
+#a-specific-link{
+    font-weight: bold;
+}
+  
