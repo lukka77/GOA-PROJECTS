@@ -15,6 +15,15 @@ second_element = my_tuple[1]
 last_element = my_tuple[-1]
 middle_slice = my_tuple[1:4]
 
-print("Second element:", second_element)
-print("Last element:", last_element)
-print("Middle three elements:", middle_slice)
+print("Second element: ", second_element)
+print("Last element: ", last_element)
+print("Middle three elements: ", middle_slice)
+
+
+#4
+my_tuple = (1, "GOA", 7.77)
+a, b, c = my_tuple
+
+print(a)
+print(b)
+print(c)
