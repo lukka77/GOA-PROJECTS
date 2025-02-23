@@ -1,0 +1,115 @@
+/* 1 */
+input {
+    border: 3px solid green;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 7px;
+    font-size: 18px;
+    color: yellow;
+}
+
+/* 2 */
+input[type="submit"]{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+input[type="submit"]:hover{
+    background-color: blue;
+}
+
+/* 3 */
+input {
+    border: 2px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* 4 */
+.error-message {
+    color: red;
+    background-color: lightcoral;
+    border: 1px solid red;
+    padding: 10px 15px;
+    font-size: 12px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.error-icon {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* 5 */
+.div2 {
+    padding: 20px;
+    border: solid 2px red;
+    background-color: aqua;
+    font-size: 15px;
+}
+
+/* 6 */
+.div3 {
+    padding: 20px 30px 40px 50px;
+    border: 2px solid red;
+    background-color: #f2f2f2;
+    font-size: 16px;
+}
+
+/* 7 */
+.box1 {
+    border: 6px solid red;
+    padding: 20px;
+    background-color: aqua;
+    font-size: 16px;
+    border-radius: 7px;
+}
+
+/* 8 */
+.box2 {
+    border: 3px solid red;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 10px 30px 50px 70px;
+    font-size: 16px;
+}
+
+/* 9 */
+p {
+    margin: 20px;
+    font-size: 18px;
+    line-height: 2;
+}
+
+/* 10 */
+.button1 {
+    padding: 10px;
+    border: 2px solid #4CAF50;
+    background-color: #fff;
+    color: #4CAF50;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* 11 */
+.box7 {
+    border: 3px solid red;
+    padding: 20px;
+    background-color: #f0f0f0;
+    font-size: 15px;
+    border-radius: 8px;
+}

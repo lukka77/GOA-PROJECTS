@@ -46,4 +46,29 @@ def century(year):
     else:
         return year // 100 + 1
     
-# 10) 
+# 10) Convert number to reversed array of digits
+def digitize(n):
+    starting_str = str(n)
+    reversed_str = starting_str[::-1]
+
+    res_list = []
+
+    for i in reversed_str:
+        res_list.append(int(i))
+
+    return res_list
+
+# 11) Beginner - Lost Without a Map
+def maps(a):
+    saver=[]
+    for i in a:
+        saver.append(i*2)
+    return saver
+
+# 12) Opposites Attract
+def lovefunc( flower1, flower2 ):
+    return (flower1 + flower2)%2 == 1
+
+# 13) Sum Arrays
+def sum_array(a):
+    return sum(a)
