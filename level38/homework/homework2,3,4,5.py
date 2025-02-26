@@ -19,6 +19,10 @@ print("Second element: ", second_element)
 print("Last element: ", last_element)
 print("Middle three elements: ", middle_slice)
 
+#  5
+tuple3 = (1, 2, 3, 4, 5, 1, 1, 1)
+print(tuple3.count(1))
+print(tuple3.index(2))
 
 #4
 my_tuple = (1, "GOA", 7.77)

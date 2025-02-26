@@ -1,10 +1,6 @@
 # Create a Python program that initializes a dictionary with at least five key-value pairs. Perform the following operations:
 
 # Print all the keys in the dictionary using the keys() method.
-# Print all the values in the dictionary using the values() method.
-# Print all key-value pairs using the items() method.
-# Iterate over the dictionary using the items() method and print each key with its corresponding value in a formatted string.
-
 dict2 = {
     "name": "Luka",
     "surname": "Gorgadze",
@@ -16,6 +12,8 @@ dict2 = {
 for i in dict2:
     print(dict2[i])
 
+
+# Print all the values in the dictionary using the values() method.
 dict3 = {
     "name": "Luka",
     "surname": "Gorgadze",
@@ -27,6 +25,7 @@ dict3 = {
 print(dict3.values())
 
 
+# Print all key-value pairs using the items() method.
 dict4 = {
     "name": "Luka",
     "surname": "Gorgadze",
@@ -38,6 +37,7 @@ dict4 = {
 print(dict4.keys())
 
 
+# Iterate over the dictionary using the items() method and print each key with its corresponding value in a formatted string.
 dict5 = {
     "name": "Luka",
     "surname": "Gorgadze",

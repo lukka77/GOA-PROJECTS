@@ -1,5 +1,6 @@
-
-
+# საკლასო დავალება:
+# შექმენით dictionary, სადაც იქნება შემდეგი გასაღებები: name, surname, academy, fav-color, city, goa-student, age, fav-programming-lang.
+# შემდეგ დაბეჭდეთ ამ dict-ის თითოეული მნიშვნელობა
 
 dict1 = {
     "name": "Luka",
