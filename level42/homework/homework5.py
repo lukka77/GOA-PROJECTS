@@ -7,7 +7,4 @@ dict2 = {
     "City": "Batumi"   
 }
 
-if "Age" in dict2:
-    print("Key exists!")
-else:
-    print("Key doesn't exist!")
+for key, value in dict2.items(): print (f"Key is: {key}, value iss: {value}")

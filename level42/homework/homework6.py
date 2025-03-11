@@ -5,4 +5,3 @@ dict2 = {
     "Surname": "Gorgadze",
     "Age": 15
 }
-
