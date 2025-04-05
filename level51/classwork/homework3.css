@@ -1,0 +1,12 @@
+#div1 {
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+}
+
+#div1:hover {
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    transition: background-color 0.3s ease;
+}
