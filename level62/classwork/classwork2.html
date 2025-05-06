@@ -1,0 +1,25 @@
+<!-- საკლასო დავალება:
+html-ში დაამატეთ პირველი დონის სათაური, რომლის id იქნება h1-1.
+ეს ელემენტი წამოიღეთ js-ში და მას შეუცვალეთ: ფერი, ფონის ფერი,
+font weight, font size, border radius -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1-1">Lorem ipsum dolor sit amet.</h1>
+    <script>
+        let h1 = document.getElementById("h1-1")
+
+        h1.style.color = "red";
+        h1.style.backgroundColor = "yellow";
+        h1.style.fontWeight = "20px";
+        h1.style.fontSize = "20px";
+        h1.style.borderRadius = "30px";
+    </script>
+</body>
+</html>
