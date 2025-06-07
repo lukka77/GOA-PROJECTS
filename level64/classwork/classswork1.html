@@ -1,0 +1,36 @@
+<!-- საკლასო დავალება:
+html-ში შექმენით ერთი form, სადაც გექნებათ ერთმანეთთან დაკავშირებული label და input. 
+ფორმას ბოლოში გაუწერეთ დადასტურების ღილაკი.
+როდესაც ფორმა დადასტურდება (onsubmit ატრიბუტი), უნდა გამოიძახოთ ფუნქცია, 
+რომელიც წამოიღებს ინფუთის მნიშვნელობას (.value) და კონსოლში გამოიტანს მას.
+კოდი ისე დაწერეთ, რომ ფორმის დადასტურებისას ვებსაიტი არ დარეფრეშდეს -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form onsubmit="handleSubmit(event)">
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <br><br>
+
+    <button type="submit">submit</button>
+  </form>
+
+  <script>
+    function handleSubmit(event) {
+      e.preventDefault();
+
+      const nameInput = document.getElementById('name');
+      const nameValue = nameInput.value;
+
+      console.log("Enter your Name:", nameValue);
+    }
+  </script>
+</body>
+</html>
