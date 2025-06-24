@@ -1,0 +1,82 @@
+<!-- Check if Two Numbers Are Equal
+Declare two numbers and use == to check if they’re equal. Print the result.
+Check if a Number is Greater Than Another Number
+Declare two numbers and use > to check if the first is greater than the second. Print the result.
+Check if a Number is Less Than or Equal to Another Number
+Declare two numbers and use <= to compare them. Print the result.
+Check if Two Numbers Are Not Equal
+Declare two numbers and use != to check if they’re not equal. Print the result.
+Check if a Number is Greater Than or Equal to 100
+Declare a number and use >= to check if it’s at least 100. Print the result.
+
+7-9)
+Show a confirm box asking a question. The result (true or false) is logged to the console.
+Show a confirm box when a button is clicked. Store the result in a variable.
+Display a confirm box on page load. Immediately show the result in an alert.
+
+10-12)
+On form submit, log the value of the input with name="username" to the console.
+On a button click, clear the value of the input with name="email".
+On a button click, alert the value of the input with name="phone". -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homework.js">
+</head>
+<body>
+    <button onclick="confirmOnClick()">Click for confirm</button>
+
+<script>
+// 7) Show a confirm box asking a question. Log result.
+let result = confirm("Do you like JavaScript?");
+console.log("User clicked:", result);
+
+// 8) Show a confirm box when a button is clicked.
+function confirmOnClick() {
+  let confirmResult = confirm("Do you want to proceed?");
+  console.log("Button confirm result:", confirmResult);
+}
+
+// 9) Display a confirm box on page load, alert result.
+window.onload = function () {
+  let pageConfirm = confirm("Do you want to continue?");
+  alert("Your answer: " + pageConfirm);
+};
+</script>
+
+<form id="userForm" onsubmit="handleSubmit(event)">
+  <input type="text" name="username" placeholder="Username" />
+  <input type="text" name="email" placeholder="Email" />
+  <input type="text" name="phone" placeholder="Phone" />
+  <button type="submit">Submit</button>
+</form>
+
+<button onclick="clearEmail()">Clear Email</button>
+<button onclick="alertPhone()">Alert Phone</button>
+
+<script>
+// 10) On form submit, log value of input with name="username"
+function handleSubmit(event) {
+  event.preventDefault();
+  const username = document.querySelector('[name="username"]').value;
+  console.log("Submitted username:", username);
+}
+
+// 11) On button click, clear value of input with name="email"
+function clearEmail() {
+  document.querySelector('[name="email"]').value = "";
+}
+
+// 12) On button click, alert value of input with name="phone"
+function alertPhone() {
+  const phone = document.querySelector('[name="phone"]').value;
+  alert("Phone: " + phone);
+}
+</script>
+</body>
+</html>

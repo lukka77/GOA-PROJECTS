@@ -1,0 +1,71 @@
+<!-- 2) Show an alert with any message.
+3) Show an alert when you open the page.
+4) Show an alert when you click a button.
+5) Log the message "Hello, world!" to the console.
+6) Log a number (like 42) to the console.
+7) Log the result of adding 2 + 2 to the console.
+8) Create a variable called name and assign your name to it.
+9) Create a variable called age and assign your age to it.
+10) Create two variables, a and b, and assign numbers to them.
+11) Create a variable color with the value "blue", then change it to "red".
+12) Create a variable score with the value 10, then change it to 20.
+13) Create a variable city with the value "Paris", then reassign it to "London". -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homework.js">
+</head>
+<body>
+      <script>
+    // 2)
+    alert("This is a custom alert message!");
+
+    // 3)
+    window.onload = function() {
+      alert("Welcome! Page is loaded.");
+    };
+
+    // 4)
+    function showAlertOnClick() {
+      alert("Button was clicked!");
+    }
+
+    // 5)
+    console.log("Hello, world!");
+
+    // 6)
+    console.log(42);
+
+    // 7)
+    console.log(2 + 2);
+
+    // 8)
+    let name = "Your Name";
+
+    // 9)
+    let age = 25;
+
+    // 10)
+    let a = 5;
+    let b = 10;
+
+    // 11)
+    let color = "blue";
+    color = "red";
+
+    // 12)
+    let score = 10;
+    score = 20;
+
+    // 13)
+    let city = "Paris";
+    city = "London";
+  </script>
+
+  <button onclick="showAlertOnClick()">Click Me</button>
+</body>
+</html>
