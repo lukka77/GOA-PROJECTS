@@ -1,0 +1,48 @@
+<!-- 2-6)
+Create a new <p> element and add it to the body.
+Create an <h1> element with some text inside it and append it to a <div>.
+Create an <img> element, set its src attribute to an image URL, and add it to the page.
+Create a <button> element with the text "Click me" and add it to the body.
+Create a <ul> element and add three <li> items to it with different text values.
+
+7-8)
+Select a <div> with the id content and use removeChild to remove its first child element.
+Create a <ul> with three <li> items, then use removeChild to remove the last <li> from the <ul>.
+
+9-12)
+Create a new <p> element and use replaceChild to replace an existing <p> inside a <div> with the id textContainer.
+Use replaceChild to swap out a <button> inside a <div> with a new <span> element.
+Find a <ul> with one <li> and use replaceChild to replace that <li> with a new one.
+Replace an <h2> element with a new <h1> element using replaceChild. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homework.js">
+</head>
+<body>
+      <div id="myDiv"></div>
+  <div id="content">
+    <p>Paragraph to be removed</p>
+    <p>Another paragraph</p>
+  </div>
+
+  <div id="textContainer">
+    <p id="oldPara">This will be replaced</p>
+  </div>
+
+  <div id="buttonContainer">
+    <button id="oldButton">Old Button</button>
+  </div>
+
+  <ul id="singleList">
+    <li>Old item</li>
+  </ul>
+
+  <h2 id="replaceMe">I am an H2</h2>
+    <script src="homework.js"></script>
+</body>
+</html>

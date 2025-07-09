@@ -1,0 +1,100 @@
+<!-- დავალება: 
+
+1. შექმენით პროექტი ნებისმიერ საკითხზე - ააგეთ ვებსაიტი. გამოიყენეთ ნასწავლი მასალა, ასევე დაამატეთ ახალი ინფორმაცია (მაგალითად, ისწავლეთ js-ის მასალა)
+2. დავალებაზე მუშაობისას, აუცილებლად უნდა დაიყოს ის 4 ნაწილად და ჯგუფის ყველა წევრმა თანაბრად იმუშავოთ. 
+როდესაც მოახდენთ პროექტის პრეზენტაციას, აუცილებლად უნდა გქონდეთ ნახაზი, სადაც ნაჩვენები იქნება, ვინ რა ნაწილი შეასრულა დავალებაში. ამის არ შესრულების შემთხვევაში, დაგაკლდებათ ქულები.
+3. კოდის დაწერისას ყურადღება მიაქციეთ მის სტრუქტურას, ასევე აუცილებლად გამოიყენეთ ნასწავლი სტანდარტები და საუკეთესო მიდგომები. 
+თუ კოდში არეული იქნება ინდენტაცია ან ფაილების დაკავშირება, დაგაკლდებათ ქულები. ასევე, თუ არ გამოიყენეთ 
+external გზებს - external css და external js, დაგაკლდებათ ქულები.
+4. ჯგუფის წევრებმა რაც შეიძლება მალე დაიწყეთ დავალებაზე მუშაობა.
+5. დავალების შესასრულებლად დრო გაქვთ 1 ივლისამდე. 1 ივლისს გაკვეთილზე გავარჩევთ თქვენს ნამუშევრებ -->
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SportShop - მთავარი</title>
+  <link rel="stylesheet" href="INDEX.css" />
+  <script src="https://kit.fontawesome.com/a81368914c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">SportShop</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">მთავარი</a></li>
+      <li><a href="products.html">პროდუქცია</a></li>
+      <li><a href="about.html">ჩვენს შესახებ</a></li>
+      <li><a href="contact.html">კონტაქტი</a></li>
+    </ul>
+    <div class="burger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>დაინტერესებული ხარ სპორტით? <br> აქ იწყება შენი მოგზაურობა!</h1>
+    <p>ყველაფერი სპორტული აქსესუარიდან - ფეხსაცმელამდე და ტანსაცმელამდე</p>
+    <a href="products.html" class="btn">გამოძებნე ახლა</a>
+  </div>
+  <div class="hero-image">
+    <img src="ფეხსაცმელი.png" alt="Sport Gear" />
+  </div>
+</section>
+
+<section class="features">
+  <div class="feature-card">
+    <i class="fas fa-shipping-fast"></i>
+    <h3>სწრაფი მიწოდება</h3>
+    <p>გადაიხადე დღეს, მიიღე ხვალვე</p>
+  </div>
+  <div class="feature-card">
+    <i class="fas fa-star"></i>
+    <h3>ხარისხიანი პროდუქცია</h3>
+    <p>მაღალი დონის სპორტული ნივთები</p>
+  </div>
+  <div class="feature-card">
+    <i class="fas fa-headset"></i>
+    <h3>24/7 მხარდაჭერა</h3>
+    <p>მხარდაჭერა ნებისმიერ დროს</p>
+  </div>
+</section>
+
+<section class="highlight-products">
+  <h2>გამორჩეული პროდუქტები</h2>
+  <div class="product-grid">
+    <div class="product-card">
+      <img src="running.png" alt="Running Shoes" />
+      <h3>სირბილის ფეხსაცმელი</h3>
+      <p>ყოველდღიური კომფორტი და გამძლეობა</p>
+      <a href="products.html" class="btn-small">გაიგე მეტი</a>
+    </div>
+    <div class="product-card">
+      <img src="football.png" alt="Football Jersey" />
+      <h3>ფეხბურთის მაისური</h3>
+      <p>მაქსიმალური დუნობა თამაშის დროს</p>
+      <a href="products.html" class="btn-small">გაიგე მეტი</a>
+    </div>
+    <div class="product-card">
+      <img src="basketball.png" alt="Basketball" />
+      <h3>კალათბურთი</h3>
+      <p>პროფესიონალური ხარისხი</p>
+      <a href="products.html" class="btn-small">გაიგე მეტი</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 SportShop. ყველა უფლება დაცულია.</p>
+</footer>
+
+<script src="INDEX.js"></script>
+</body>
+</html>
