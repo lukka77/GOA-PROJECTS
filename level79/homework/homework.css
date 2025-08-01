@@ -1,0 +1,29 @@
+/* ✅ Homework 1: Heading Formatter
+Select all <h1> and <h3> tags.
+Change their text color to green.
+Add a black border around each one.
+Set the font size to 30px for <h1> and 24px for <h3>. */
+
+h1, h2 {
+    color: green;
+    border-color: 1px solid black;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+/* ✅ Homework 3: Image Gallery Resize
+Select all <img> elements.
+Set their width to 200px and border radius to 10px.
+If the image alt text contains the word "cat", set the border color to orange. */
+
+img {
+    width: 200px;
+    border-radius: 10px;
+    
+}

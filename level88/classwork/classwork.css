@@ -1,0 +1,97 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100vh;
+}
+
+.Top {
+    display: flex;
+    gap: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.LowProducts {
+    width: 200px;
+    color: hsl(300, 43%, 22%);
+}
+
+.ExtraInfo {
+    width: 300px;
+}
+
+.Review {
+    display: flex;
+    height: 30px;
+    width: 500px;
+    background-color: hsl(300, 24%, 96%);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: hsl(300, 43%, 22%);
+}
+
+.TopRight {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Review:nth-child(2) {
+    margin-left: 20px;
+}
+
+.Review:nth-child(3) {
+    margin-left: 40px;
+}
+
+
+.Colton {
+    background-color: hsl(300, 43%, 22%);
+    height: 200px;
+    width: 320px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CardTop  {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 30px;
+    color: white;
+}
+
+.CardTop img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.CardTop b {
+    color: hsl(333, 80%, 67%);
+}
+
+.Colton p, .Irene p, .Anne p{
+    color: white;
+    width: 250px;
+}
+
+.Bottom {
+    display: flex;
+    gap: 30px;
+}
+
+.Irene {
+    margin-top: 20px;
+}
+
+.Anne {
+    margin-top: 40px;
+}
