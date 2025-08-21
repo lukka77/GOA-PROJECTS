@@ -54,3 +54,35 @@ for (let i = 0; i < 3; i++) {
         circle.style.left = pos + "px";
     }, 200);
 }
+
+
+// ✅ Homework 5: List Alternating Color
+// Select all <li> tags.
+// Give even-indexed items a background color of skyblue.
+// Give odd-indexed items a background color of lightgray.
+
+let itmes = document.getElementsByTagName("li");
+for (let i = 0; i < itmes.length; i++) {
+    if (i % 2 === 0) {
+        items[i].style.backgroundColor = "skyblue";
+    } else {
+        items[i].style.backgroundColor = "lightgray";
+    }
+}
+
+
+// ✅ Homework 6: Interactive Box Movement
+// Create one <div> and one <button> with JavaScript.
+// When the button is clicked:
+// The box moves right by 20px.
+// The background color randomly changes.
+
+let div = document.getElementById ("div-main");
+let button = document.getElementById("button-main");
+
+let divleft = 0;
+
+button.addEventListener("click", function(){
+    divleft += 20;
+    div.style.left = String(divleft) + "px";
+})

@@ -16,14 +16,3 @@ h1 {
 h3 {
     font-size: 30px;
 }
-
-/* ✅ Homework 3: Image Gallery Resize
-Select all <img> elements.
-Set their width to 200px and border radius to 10px.
-If the image alt text contains the word "cat", set the border color to orange. */
-
-img {
-    width: 200px;
-    border-radius: 10px;
-    
-}

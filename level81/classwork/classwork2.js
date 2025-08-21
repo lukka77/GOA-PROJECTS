@@ -10,14 +10,13 @@ let myObj = {
     favColor: "Blue"
 }
 
-for (let key in myObj) {
+for (let key in myObj){
     let li1 = document.createElement("li");
-    li1.textContent = key;
-
     let li2 = document.createElement("li");
-    liw.textContent = myObj[ket];
-
     let hr = document.createElement("hr");
+
+    li1.textContent = key;
+    li2.textContent = myObj[key];
 
     ul.appendChild(li1)
     ul.appendChild(li2)
